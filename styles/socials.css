@@ -1,9 +1,21 @@
 a.social {
     --bg-img: "";
     background-image: var(--bg-img);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
     width: 1.5rem;
     height: 1.5rem;
     display: block;
+    outline: none;
+    border: none;
+    padding: 0;
+    transition: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+
 
     -webkit-background-clip: initial;
     background-clip: initial;
